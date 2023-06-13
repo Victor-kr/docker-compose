@@ -11,12 +11,13 @@
 
 ### 실행
 
-- 저장소 클론 -> 폴더 이동 -> get-compose.sh 실행
+- 저장소 클론 -> 폴더 이동 -> compose-up.sh 실행, compose-down.sh 실행
 
 ```
 $ git clone https://github.com/Victor-kr/docker-compose.git
 $ cd docker-compose
-$ ./get-compose.sh
+$ ./compose-up.sh
+$ ./compose-down.sh
 ```
 
 
