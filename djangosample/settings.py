@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'djangosample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DJANGO_DB_NAME', 'djangosample'),
-        'USER': os.environ.get('DJANGO_DB_USERNAME', 'sampleuser'),
-        'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD', 'samplesecret'),
+        'NAME': os.environ.get('DJANGO_DB_NAME'),
+        'USER': os.environ.get('DJANGO_DB_USERNAME'),
+        'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD'),
         'HOST': os.environ.get('DJANGO_DB_HOST', 'localhost'),
         'PORT': os.environ.get('DJANGO_DB_PORT', '5432'),
     }
